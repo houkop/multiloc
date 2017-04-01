@@ -1,0 +1,97 @@
+.controls {
+    border: 1px solid transparent;
+    border-radius: 2px 0 0 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 32px;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+#custom-map-controls {
+    width: 100%;
+    display: none;
+    p {
+        //margin-right: 30%;
+    }
+}
+
+#place-control {
+    #pac-input {
+        background-color: #fff;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+        text-overflow: ellipsis;
+    }
+
+    #pac-input:focus {
+        border-color: #4d90fe;
+    }
+
+    #geo-control {
+        float: left !important;
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    #legacy-control {
+        float: left !important;
+        label {
+            background:rgba(255,255,255,0.5);
+            padding: 0 5px;
+        }
+        input {
+            margin: 0;
+        }
+        .legacy-mode {
+            background:rgba(0,255,0,0.5);
+        }
+    }
+
+    #latlng {
+        display: inline-block;
+    }
+
+    .button {
+        vertical-align: baseline;
+    }
+
+    #latlng:focus {
+        border-color: #4d90fe;
+    }
+
+    .pac-container {
+        font-family: Roboto;
+    }
+}
+#beehive-control {
+    .slider {
+        background-color: #333;
+        margin-top: 0.75rem;
+        margin-bottom: 0.75rem;
+    }
+    .slider-fill {
+        background-color: #333;
+    }
+
+    #edit-hives, #remove {
+        display: none;
+    }
+}
+
+#download {
+    display: none;
+}
+
+#script-preview {
+    white-space: nowrap;
+    overflow: auto;
+}
+
+#script-options {
+    display: none;
+    #coords {
+        margin-right: 0.75rem;
+    }
+}
